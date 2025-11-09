@@ -105,7 +105,7 @@ function SB:InsertOptions()
 				order = 7,
 				type = "range",
 				name = L["Width"],
-				min = 5, max = 600, step = 1,
+				min = 5, max = 1200, step = 1,
 				disabled = function() return not E.db.unitframe.units.player.swingbar.enable end
 			},
 			height = {
